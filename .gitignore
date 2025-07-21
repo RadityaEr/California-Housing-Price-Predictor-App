@@ -8,6 +8,10 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Model files (optional if they're too big for GitHub)
-*.pkl
-*.joblib
+# Allow specific model files
+!model_pipeline.pkl
+!best_gbr_model.pkl
+
+# Ignore other model files if any
+# *.pkl
+# *.joblib
