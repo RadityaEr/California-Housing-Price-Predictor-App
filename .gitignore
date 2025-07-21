@@ -1,0 +1,13 @@
+# Ignore virtual environment
+venv/
+.env/
+*.pyc
+__pycache__/
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model files (optional if they're too big for GitHub)
+*.pkl
+*.joblib
